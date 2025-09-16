@@ -1,0 +1,304 @@
+# English [default] (https://localizely.com/language-code/en/)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Where biology meets algorithms
+    tagline: Snyder Institute Research Gateway
+    button: About Us
+    buttonlink: "about.html"
+
+  intro:
+    section: intro
+    title: "ABOUT US"
+    text: "Welcome to the Bioinformatics Hub"
+    intro: "<b>The Bioinformatics Hub serves as the pivotal nexus for Bioinformatics</b> at the Snyder Institute for Chronic Diseases."
+    body: "<u>Our mission</u> is to facilitate groundbreaking discoveries by equipping researchers with <b>comprehensive access to state-of-the-art methods, shared resources, and an infrastructure that encourages collaborative engagement</b> across disciplines. At the intersection of biological research and computational algorithms, the Bioinformatics Hub champions the principles of transparency, openness, and reproducibility in scientific inquiry. We are committed to fostering a research environment that not only accelerates innovation but also enhances collaboration among investigators, thereby empowering them to challenge conventional boundaries in the field of chronic disease research. <u>Our vision</u> is to ensure that all researchers, regardless of their specific domain, are provided with <b>the essential resources and support necessary to advance their work</b>. By fostering an inclusive and dynamic research ecosystem, we aim to drive transformative advances that can lead to improved outcomes in the prevention, diagnosis, and treatment of chronic diseases."
+    outro: "The Bioinformatics Hub stands as a testament to our belief that by synergizing diverse expertise and cutting-edge technology, we can collectively make strides toward a healthier future. We invite you to engage with us and explore the myriad of opportunities available through our platform, as we work together to shape the future of chronic disease research."
+
+  team:
+    section: team
+    title: "OUR TEAM"
+    text: "Meet our amazing members"
+    people:
+      - name: "Heewon Seo"
+        role: "Senior Bioinformatics Scientist"
+        image: assets/img/team/Heewon.png
+        social:
+          - url: https://www.lootpiz.com
+            icon: fas fa-home
+      # - name: "Larry Parker"
+      #   role: "Lead Marketer"
+      #   image: assets/img/team/2.jpg
+      #   social:
+      #     - url: https://twitter.com
+      #       icon: fab fa-twitter
+      #     - url: https://facebook.com
+      #       icon: fab fa-facebook-f
+      #     - url: https://linkedin.com
+      #       icon: fab fa-linkedin-in
+
+  expertise:
+    section: expertise
+    title: "Expertise"
+    text: "What we do"
+    list:
+      - title: "Workflow Design"
+        desc: "We create streamlined and reproducible bioinformatics workflows tailored to your research needs."
+        icon: fas fa-laptop-code
+      - title: "Method Development"
+        desc: "We build and implement advanced computational methods to tackle complex biological questions."
+        icon: fas fa-tools
+      - title: "Data Management"
+        desc: "We design and maintain structured databases to ensure reliable, scalable, and accessible research data."
+        icon: fas fa-database
+
+  portfolio:
+    section: portfolio
+    title: "Methods"
+    text: "Publications, software, and tools advancing bioinformatics research"
+    closebutton: "Close"
+
+  reproducibility:
+    section: reproducibility
+    title: Reproducibility
+    text: Open resources ensuring transparent and reproducible science
+    list:
+      - title: "GitHub"
+        desc: "Version-controlled code and workflows<br />for transparent collaboration."
+        icon: assets/img/site/Icon_GitHub.png
+        url: "https://github.com/Snyder-Institute"
+      - title: "Docker"
+        desc: "Containerized environments to ensure consistent and reproducible analyses."
+        icon: assets/img/site/Icon_Docker.png
+        url: "https://hub.docker.com/u/snyderinstitute"
+      - title: "ShinyApps"
+        desc: "Interactive applications to share and explore research findings."
+        icon: assets/img/site/Icon_ShinyApp.png
+        url: "https://shinyapps.ucalgary.ca/"
+
+  blockquote:
+    section: blockquote
+    title: Bioinformatics is Medicine&#x27;s New Backbone
+    text: "In modern medicine, bioinformatics is essential for turning biological data into clinical insight. It enables the discovery of disease mechanisms, supports the development of targeted therapies, and helps personalize treatment by aligning interventions with a patient&#x27;s unique molecular and cellular profile—bringing precision medicine to life."
+    
+  acknowledgement:
+    section: acknowledgement
+    max-height: 80px
+    horizontal-scrolling: "no"
+    list:
+      - title: "Alberta Health Services"
+        url: https://www.albertahealthservices.ca/
+        logo: assets/img/acknowledgement/alberta_health_services.png
+      - title: "University of Calgary"
+        url: https://www.ucalgary.ca/
+        logo: assets/img/acknowledgement/university_of_calgary.png
+      - title: "Snyder Institute"
+        url: https://snyder.ucalgary.ca/
+        logo: assets/img/acknowledgement/snyder_institute.png
+
+en-001: #English (World)
+  <<: *DEFAULT_EN
+en-150: #English (Europe)
+  <<: *DEFAULT_EN
+en-AG: #English (Antigua and Barbuda)
+  <<: *DEFAULT_EN
+en-AI: #English (Anguilla)
+  <<: *DEFAULT_EN
+en-AS: #English (American Samoa)
+  <<: *DEFAULT_EN
+en-AT: #English (Austria)
+  <<: *DEFAULT_EN
+en-AU: #English (Australia)
+  <<: *DEFAULT_EN
+en-BB: #English (Barbados)
+  <<: *DEFAULT_EN
+en-BE: #English (Belgium)
+  <<: *DEFAULT_EN
+en-BI: #English (Burundi)
+  <<: *DEFAULT_EN
+en-BM: #English (Bermuda)
+  <<: *DEFAULT_EN
+en-BS: #English (Bahamas)
+  <<: *DEFAULT_EN
+en-BW: #English (Botswana)
+  <<: *DEFAULT_EN
+en-BZ: #English (Belize)
+  <<: *DEFAULT_EN
+en-CA: #English (Canada)
+  <<: *DEFAULT_EN
+en-CC: #English (Cocos (Keeling) Islands)
+  <<: *DEFAULT_EN
+en-CH: #English (Switzerland)
+  <<: *DEFAULT_EN
+en-CK: #English (Cook Islands)
+  <<: *DEFAULT_EN
+en-CM: #English (Cameroon)
+  <<: *DEFAULT_EN
+en-CX: #English (Christmas Island)
+  <<: *DEFAULT_EN
+en-CY: #English (Cyprus)
+  <<: *DEFAULT_EN
+en-DE: #English (Germany)
+  <<: *DEFAULT_EN
+en-DK: #English (Denmark)
+  <<: *DEFAULT_EN
+en-DM: #English (Dominica)
+  <<: *DEFAULT_EN
+en-ER: #English (Eritrea)
+  <<: *DEFAULT_EN
+en-FI: #English (Finland)
+  <<: *DEFAULT_EN
+en-FJ: #English (Fiji)
+  <<: *DEFAULT_EN
+en-FK: #English (Falkland Islands)
+  <<: *DEFAULT_EN
+en-FM: #English (Micronesia)
+  <<: *DEFAULT_EN
+en-GB: #English (United Kingdom)
+  <<: *DEFAULT_EN
+en-GD: #English (Grenada)
+  <<: *DEFAULT_EN
+en-GG: #English (Guernsey)
+  <<: *DEFAULT_EN
+en-GH: #English (Ghana)
+  <<: *DEFAULT_EN
+en-GI: #English (Gibraltar)
+  <<: *DEFAULT_EN
+en-GM: #English (Gambia)
+  <<: *DEFAULT_EN
+en-GU: #English (Guam)
+  <<: *DEFAULT_EN
+en-GY: #English (Guyana)
+  <<: *DEFAULT_EN
+en-HK: #English (Hong Kong)
+  <<: *DEFAULT_EN
+en-IE: #English (Ireland)
+  <<: *DEFAULT_EN
+en-IL: #English (Israel)
+  <<: *DEFAULT_EN
+en-IM: #English (Isle of Man)
+  <<: *DEFAULT_EN
+en-IN: #English (India)
+  <<: *DEFAULT_EN
+en-IO: #English (British Indian Ocean Territory)
+  <<: *DEFAULT_EN
+en-JE: #English (Jersey)
+  <<: *DEFAULT_EN
+en-JM: #English (Jamaica)
+  <<: *DEFAULT_EN
+en-KE: #English (Kenya)
+  <<: *DEFAULT_EN
+en-KI: #English (Kiribati)
+  <<: *DEFAULT_EN
+en-KN: #English (Saint Kitts and Nevis)
+  <<: *DEFAULT_EN
+en-KY: #English (Cayman Islands)
+  <<: *DEFAULT_EN
+en-LC: #English (Saint Lucia)
+  <<: *DEFAULT_EN
+en-LR: #English (Liberia)
+  <<: *DEFAULT_EN
+en-LS: #English (Lesotho)
+  <<: *DEFAULT_EN
+en-MG: #English (Madagascar)
+  <<: *DEFAULT_EN
+en-MH: #English (Marshall Islands)
+  <<: *DEFAULT_EN
+en-MO: #English (Macao)
+  <<: *DEFAULT_EN
+en-MP: #English (Northern Mariana Islands)
+  <<: *DEFAULT_EN
+en-MS: #English (Montserrat)
+  <<: *DEFAULT_EN
+en-MT: #English (Malta)
+  <<: *DEFAULT_EN
+en-MU: #English (Mauritius)
+  <<: *DEFAULT_EN
+en-MW: #English (Malawi)
+  <<: *DEFAULT_EN
+en-MY: #English (Malaysia)
+  <<: *DEFAULT_EN
+en-NA: #English (Namibia)
+  <<: *DEFAULT_EN
+en-NF: #English (Norfolk Island)
+  <<: *DEFAULT_EN
+en-NG: #English (Nigeria)
+  <<: *DEFAULT_EN
+en-NL: #English (Netherlands)
+  <<: *DEFAULT_EN
+en-NR: #English (Nauru)
+  <<: *DEFAULT_EN
+en-NU: #English (Niue)
+  <<: *DEFAULT_EN
+en-NZ: #English (New Zealand)
+  <<: *DEFAULT_EN
+en-PG: #English (Papua New Guinea)
+  <<: *DEFAULT_EN
+en-PH: #English (Philippines)
+  <<: *DEFAULT_EN
+en-PK: #English (Pakistan)
+  <<: *DEFAULT_EN
+en-PN: #English (Pitcairn Islands)
+  <<: *DEFAULT_EN
+en-PR: #English (Puerto Rico)
+  <<: *DEFAULT_EN
+en-PW: #English (Palau)
+  <<: *DEFAULT_EN
+en-RW: #English (Rwanda)
+  <<: *DEFAULT_EN
+en-SB: #English (Solomon Islands)
+  <<: *DEFAULT_EN
+en-SC: #English (Seychelles)
+  <<: *DEFAULT_EN
+en-SD: #English (Sudan)
+  <<: *DEFAULT_EN
+en-SE: #English (Sweden)
+  <<: *DEFAULT_EN
+en-SG: #English (Singapore)
+  <<: *DEFAULT_EN
+en-SH: #English (Saint Helena)
+  <<: *DEFAULT_EN
+en-SI: #English (Slovenia)
+  <<: *DEFAULT_EN
+en-SL: #English (Sierra Leone)
+  <<: *DEFAULT_EN
+en-SS: #English (South Sudan)
+  <<: *DEFAULT_EN
+en-SX: #English (Sint Maarten)
+  <<: *DEFAULT_EN
+en-SZ: #English (Eswatini)
+  <<: *DEFAULT_EN
+en-TC: #English (Turks and Caicos Islands)
+  <<: *DEFAULT_EN
+en-TK: #English (Tokelau)
+  <<: *DEFAULT_EN
+en-TO: #English (Tonga)
+  <<: *DEFAULT_EN
+en-TT: #English (Trinidad and Tobago)
+  <<: *DEFAULT_EN
+en-TV: #English (Tuvalu)
+  <<: *DEFAULT_EN
+en-TZ: #English (Tanzania)
+  <<: *DEFAULT_EN
+en-UG: #English (Uganda)
+  <<: *DEFAULT_EN
+en-UM: #English (United States Minor Outlying Islands)
+  <<: *DEFAULT_EN
+en-US: #English (United States)
+  <<: *DEFAULT_EN
+en-VC: #English (Saint Vincent and the Grenadines)
+  <<: *DEFAULT_EN
+en-VG: #English (British Virgin Islands)
+  <<: *DEFAULT_EN
+en-VI: #English (U.S. Virgin Islands)
+  <<: *DEFAULT_EN
+en-VU: #English (Vanuatu)
+  <<: *DEFAULT_EN
+en-WS: #English (Samoa)
+  <<: *DEFAULT_EN
+en-ZA: #English (South Africa)
+  <<: *DEFAULT_EN
+en-ZM: #English (Zambia)
+  <<: *DEFAULT_EN
+en-ZW: #English (Zimbabwe)
+  <<: *DEFAULT_EN

@@ -1,0 +1,29 @@
+#Color Customization
+highlight: "#FFCD00"
+white: "#EEEEEE"
+black: "#333333"
+
+#Image Customization
+header-image: "../img/site/header.png"
+quote-image: "../img/site/blockquote.png"
+
+#Font Awesome icon for portfolio grid when an item is hovered over
+#portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
+
+# Add custom fonts
+fonts_urls:
+    - "https://fonts.googleapis.com/css2?family=Audiowide"
+    - "https://fonts.googleapis.com/css2?family=Archivo+Black"
+    - "https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700"
+    - "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900"
+
+# Set custom fonts
+fonts:
+  - name: "Audiowide" # head
+    for: "script"
+  - name: "Archivo Black" # title
+    for: "heading"
+  - name: "Roboto Mono" # subtitle
+    for: "serif"
+  - name: "Roboto" # body
+    for: "body"

@@ -1,0 +1,14 @@
+<!-- Acknowledgement -->
+<section class="py-5" id="{{ site.data.sitetext[site.locale].acknowledgement.section | default: "acknowledgement" }}"  style="background-color: #212529">
+  <div class="container">
+    <div class="row" {% if site.data.sitetext[site.locale].acknowledgement.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
+    {% for client in site.data.sitetext[site.locale].acknowledgement.list %}
+      <div class="col-md-4 col-sm-6">
+        <a href="{{ client.url }}" target="_blank">
+          <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext[site.locale].clients.max-height | default: "80px" }}">
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+// Styling for the blockquote section
+section#blockquote {
+  background-color: $gray-900;
+  background-image: url("#{$quote-image}");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  .section-heading {
+    font-size: 30px;
+    color: $white;
+  }
+  .section-subheading {
+    color: $white;
+    font-size: 20px;
+    line-height: 36px;
+  }
+}

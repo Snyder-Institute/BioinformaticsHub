@@ -76,6 +76,12 @@ en: &DEFAULT_EN
         icon: assets/img/site/Icon_ShinyApp.png
         url: "https://shinyapps.ucalgary.ca/"
 
+  collaborators:
+    section: collaborators
+    title: Collaborators
+    text: Partners driving discovery together
+
+
   blockquote:
     section: blockquote
     title: Bioinformatics is Medicine&#x27;s New Backbone

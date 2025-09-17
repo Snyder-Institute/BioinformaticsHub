@@ -1,27 +1,31 @@
 <!-- Reproducibility -->
-<section class="page-section" id="{{ site.data.sitetext[site.locale].reproducibility.section | default: "reproducibility" }}">
-  <div class="container">
+<section class="page-section" id="reproducibility">
+        <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].reproducibility.title | default: "Reproducibility" }}</h2>
-        {% if site.data.sitetext[site.locale].reproducibility.text %}
-    <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].reproducibility.text }}</h3>
-    {% endif %}
-      </div>
-    </div>
-    <div class="row text-center">
-  {% for platform in site.data.sitetext[site.locale].reproducibility.list %}
-      <div class="col-md-4">
-        <h4 class="service-heading">{{ platform.title | markdownify }}</h4>
-        <p>
-          <a href="{{ platform.url }}" target="_blank"><img src="{{ platform.icon }}" width="120"></a>
-        </p>
-        {% if platform.desc %}<div class="text-muted">{{ platform.desc | markdownify }}</div>{% endif %}
-        
-      </div>
-  {% endfor %}
-    </div>  
-  </div>
+                <div class="row">
+                        <div class="col-lg-12 text-center">
+                                <h2 class="section-heading text-uppercase">{{
+                                        site.data.sitetext[site.locale].reproducibility.title | default:
+                                        "Reproducibility" }}</h2>
+                                {% if site.data.sitetext[site.locale].reproducibility.text %}
+                                <h3 class="section-subheading text-muted">{{
+                                        site.data.sitetext[site.locale].reproducibility.text }}</h3>
+                                {% endif %}
+                        </div>
+                </div>
+                <div class="row text-center">
+                        {% for platform in site.data.sitetext[site.locale].reproducibility.list %}
+                        <div class="col-md-4">
+                                <h4 class="service-heading">{{ platform.title | markdownify }}</h4>
+                                <p>
+                                        <a href="{{ platform.url }}" target="_blank"><img src="{{ platform.icon }}"
+                                                        width="120"></a>
+                                </p>
+                                {% if platform.desc %}<div class="text-muted">{{ platform.desc | markdownify }}</div>{%
+                                endif %}
+                        </div>
+                        {% endfor %}
+                </div>
+        </div>
 </section>
 <!-- End Reproducibility -->

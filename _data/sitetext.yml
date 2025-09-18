@@ -70,11 +70,11 @@ en: &DEFAULT_EN
       - title: "Docker"
         desc: "Containerized environments to ensure consistent and reproducible analyses."
         icon: assets/img/site/Icon_Docker.png
-        url: "https://hub.docker.com/u/snyderinstitute"
+        url: "https://hub.docker.com/u/SnyderInstitute"
       - title: "ShinyApps"
         desc: "Interactive applications to share and explore research findings."
         icon: assets/img/site/Icon_ShinyApp.png
-        url: "https://shinyapps.ucalgary.ca/"
+        url: "https://ShinyApps.ucalgary.ca/"
 
   collaborators:
     section: collaborators

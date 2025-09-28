@@ -27,7 +27,7 @@ author     : Heewon Seo
 locale: "en-CA" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: GTM-K46WZQV6
 
 collections:
   portfolio:

@@ -26,9 +26,6 @@ author     : Heewon Seo
 
 locale: "en-CA" # See available languages in _data/sitetext.yml
 
-analytics:
-  google: "GTM-K46WZQV6"
-
 collections:
   portfolio:
 

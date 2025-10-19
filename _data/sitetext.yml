@@ -15,6 +15,19 @@ en: &DEFAULT_EN
     body: "<u>Our mission</u> is to facilitate groundbreaking discoveries by equipping researchers with <b>comprehensive access to state-of-the-art methods, shared resources, and an infrastructure that encourages collaborative engagement</b> across disciplines. At the intersection of biological research and computational algorithms, the Bioinformatics Hub champions the principles of transparency, openness, and reproducibility in scientific inquiry. We are committed to fostering a research environment that not only accelerates innovation but also enhances collaboration among investigators, thereby empowering them to challenge conventional boundaries in the field of chronic disease research. <u>Our vision</u> is to ensure that all researchers, regardless of their specific domain, are provided with <b>the essential resources and support necessary to advance their work</b>. By fostering an inclusive and dynamic research ecosystem, we aim to drive transformative advances that can lead to improved outcomes in the prevention, diagnosis, and treatment of chronic diseases."
     outro: "The Bioinformatics Hub stands as a testament to our belief that by synergizing diverse expertise and cutting-edge technology, we can collectively make strides toward a healthier future. We invite you to engage with us and explore the myriad of opportunities available through our platform, as we work together to shape the future of chronic disease research."
 
+  policy:
+    section: policy
+    title: "COLLABORATION GUIDELINES"
+    text: "Principles of Bioinformatics Support and Engagement"
+    intro: The Bioinformatics Hub is committed to <b>providing high-quality analytical support</b> that strengthens the research efforts of our collaborators. To ensure successful and efficient collaborations, we ask that all research groups familiarize themselves with the following guiding principles before initiating a project with our team.
+    item1_title: Early involvement in study design
+    item1: Engaging our team at the study design stage is critical for the success of your project. Early collaboration allows us to understand the research scope, experimental objectives, and data generation plans. This enables us to contribute to sound study design, recommend appropriate analytical methods, and ensure that data collection aligns with downstream bioinformatics analyses.
+    item2_title: Data readiness and project continuity
+    item2: The Bioinformatics Hub supports active and scientifically viable projects. We do not provide analyses for legacy, incomplete, or abandoned datasets. Please ensure that your data are of sufficient quality and that your project has a clear and current research context before requesting analytical support.
+    item3_title: Planning, capacity, and timelines
+    item3: Our analytical resources are limited and scheduled to accommodate multiple concurrent projects. To maintain equitable access and timely delivery, collaborators must discuss project timelines and priorities prior to initiating a request. We are unable to accommodate last-minute or “urgent” requests that have not been planned in advance.
+    outro: By following these principles, we can ensure effective collaborations, responsible use of institutional resources, and reproducible bioinformatics outcomes that enhance the impact of your research.
+
   team:
     section: team
     title: "OUR TEAM"
@@ -24,18 +37,12 @@ en: &DEFAULT_EN
         role: "Senior Bioinformatics Scientist"
         image: assets/img/team/Heewon.png
         social:
+          - url: mailto:Heewon.Seo@ucalgary.ca
+            icon: fas fa-envelope
           - url: https://www.lootpiz.com
             icon: fas fa-home
-      # - name: "Larry Parker"
-      #   role: "Lead Marketer"
-      #   image: assets/img/team/2.jpg
-      #   social:
-      #     - url: https://twitter.com
-      #       icon: fab fa-twitter
-      #     - url: https://facebook.com
-      #       icon: fab fa-facebook-f
-      #     - url: https://linkedin.com
-      #       icon: fab fa-linkedin-in
+#         - url: https://linkedin.com
+#           icon: fab fa-linkedin-in
 
   expertise:
     section: expertise

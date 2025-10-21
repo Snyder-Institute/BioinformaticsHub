@@ -41,6 +41,8 @@ en: &DEFAULT_EN
             icon: fas fa-envelope
           - url: https://www.lootpiz.com
             icon: fas fa-home
+          - url: assets/pdf/HSC1630.pdf
+            icon: fas fa-map-marker
 #         - url: https://linkedin.com
 #           icon: fab fa-linkedin-in
 

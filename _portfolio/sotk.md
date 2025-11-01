@@ -1,9 +1,9 @@
 ---
-thumbnail: assets/img/portfolio/SOTK_logo.png
-title: Spatial Omics Toolkit (SOTK)
-subtitle: Analyze spatial omics data to identify biological modules
+thumbnail: assets/img/portfolio/MICROBENCH_logo.png
+title: MICROBENCH
+subtitle: Microbiota reproducibility benchmark project
 
 ---
-The SOTK is an R package that offers a comprehensive suite of functions for identifying biologically meaningful modules from spatial transcriptomics data. It enables integrative analysis across multiple cohorts or platforms by constructing a unified correlation network based on deconvoluted outputs, leveraging community detection algorithms to uncover overrepresented biological patterns.
+This project aims to systematically evaluate and optimize the experimental variables that determine successful and reproducible engraftment of human gut microbiota in germ-free mice. Through quantitative assessment of microbial and host microbiome profiles, we seek to establish evidence-based best practices for generating and validating human microbiota-associated models.
 
-For details, visit the <a href="https://github.com/lootpiz/SOTK" target="_blank">SOTK GitHub</a> or explore the <a href="https://shinyapps.ucalgary.ca/SOTK" target="_blank">SOTK ShinyApp</a> for a live demo.
+For details, visit the <a href="https://shinyapps.ucalgary.ca/MICROBENCH" target="_blank">ShinyApp</a> for more information.

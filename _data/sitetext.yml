@@ -46,6 +46,18 @@ en: &DEFAULT_EN
 #         - url: https://linkedin.com
 #           icon: fab fa-linkedin-in
 
+  event:
+    seciton: event
+    title: "Engagements"
+    text: "Where we gather, teach, and collaborate with the community"
+    list:
+      - title: Bioinformatics Hub Open House
+        banner: assets/img/events/banner01.png
+        url: https://bioinformatics.ucalgary.ca/events
+      - title: Place holder
+        banner: assets/img/events/banner_holder.png
+        url:
+
   expertise:
     section: expertise
     title: "Expertise"
@@ -63,8 +75,8 @@ en: &DEFAULT_EN
 
   portfolio:
     section: portfolio
-    title: "Methods"
-    text: "Publications, software, and tools advancing bioinformatics research"
+    title: "Innovation"
+    text: "Developing tools and software that push bioinformatics forward"
     closebutton: "Close"
 
   reproducibility:
